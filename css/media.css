@@ -1,0 +1,105 @@
+/* Media Responsive For Mobile Screen  */
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 3.5rem;
+  }
+  .special-heading + p {
+    margin: -20px 0 0;
+  }
+}
+
+/* Media Responsive For Mobile Screen  */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Media Responsive For Medium Screen  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Media Responsive For Large Screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Media Responsive For Mobile Screen  */
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  .services-content .image-column {
+    display: none;
+  }
+}
+
+/* Media Responsive For  Screen  */
+@media (max-width: 991px) {
+  .about .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about .about-content .section-image {
+    margin: 0 auto 50px;
+  }
+  .about .about-content .section-image::after {
+    display: none;
+  }
+  .about .about-content .section-image::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(
+      to right,
+      #10cab7 50%,
+      #10cab7 50%,
+      #ebeced 50%,
+      #ebeced 50%
+    );
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+}
+
+/* Media Responsive For Mobile Screen  */
+@media (max-width: 767px) {
+  .contact .contact-content .label,
+  .contact .contact-content .link {
+    font-size: 25px;
+  }
+  .contact .contact-content .social {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .contact-content .social a:first-of-type {
+    margin-top: 50px;
+  }
+  .contact .contact-content .social a {
+    width: 150px;
+    padding: 10px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  .header .links nav a {
+    max-width: 100px;
+    line-height: 30px;
+    font-size: 16px;
+  }
+}
